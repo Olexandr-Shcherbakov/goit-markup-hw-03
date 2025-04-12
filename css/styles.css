@@ -93,27 +93,31 @@ a{ text-decoration: none ;}
         .buttonorder:hover,
         .buttonorder:focus {background-color:#404bbf ;}
     .contskil{padding: 120px 0;}
-    .sktxt{padding-top: 8px 0;}
-    .endle{margin-right: 0%;}
-    .threetit{ width: calc((100% - 72px) / 4); margin-bottom: 8px;  }
-    .skilllist{gap: 24px;
+    .sktxt{padding-top: 8px 0;width: calc((100%-72px)/4);
+         }
+    .endle{margin-right: 0%; width: calc((100%-72px)/4);}
+    .threetit{ width: calc((100%-72px)/4); margin-bottom: 8px;  }
+    .skilllist{padding: 120px 0;
+        gap: 24px;
         height: 104px;
         flex-basis:calc((100%-24px*3)/4);
         display: flex;
         align-items: center;}    
-    .conteam{margin-top: 120px;}
+    .conteam{margin-top: 120px;
+    padding: 120px 0;}
     .oursp{padding: 120px 0;
         gap: 24px; 
         flex-basis:calc((100%-24px*3)/4);
         display: flex;
         align-items: center;}
-    .sectionthree{background-color: #f4f4fd;}
-
-    .nameprof{padding: 32px 0 32px;}
+    .sectionthree{background-color: #f4f4fd;
+     padding: 120px 0;}
+    .secttthh{width: calc((100%-72px)/4);border-radius: 0px 0px 4px 4px ;}
+    .nameprof{padding: 32px 0 32px;width: calc((100%-72px)/4);border-radius: 0px 0px 4px 4px ;}
     
      
     .sectourteam{padding: 72px 0;
-        background-color: #FFFFFF;}
+        background-color: #FFFFFF;border-radius: 0px 0px 4px 4px ;}
     .skilltit{display:none;}
     .tithtwo{margin-bottom: 72px;
         padding: 120px 0;
@@ -126,8 +130,9 @@ a{ text-decoration: none ;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;}
-    .imgsecth{  width: calc((100% - 3 * 24px) / 4) border-radius 0px 0px 4px 4px;}    
-    .tiththree{padding-top: 32px;
+    .imgsecth{ width: calc((100% - 72px) / 4) border-radius 0px 0px 4px 4px; display: block;}    
+    .tiththree{margin-bottom:  8px;
+        padding-top: 32px;
         text-align: center;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -146,10 +151,11 @@ a{ text-decoration: none ;}
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;}
-    .portfol{display:flex;flex-wrap: wrap;
+    .portfol{column-gap: 24px;
+        display:flex;flex-wrap: wrap;
         flex-basis:calc((100%-24px*4)/6);
         row-gap: 48px;}
-    .imgport{width: calc((100%-48px)/3);} 
+    .imgport{width: calc((100%-48px)/3);display: block;} 
     .contfor{padding: 32px 16px;
         border: 1px solid#e7e9fc;
         border-top: none;}
@@ -167,6 +173,7 @@ a{ text-decoration: none ;}
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;}
+    .secten{padding-top: 120px;padding-bottom: 120px;}    
     .footer-logo{display: inline-block ; margin-bottom: 16px;}
 
 
