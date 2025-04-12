@@ -95,8 +95,9 @@ a{ text-decoration: none ;}
     .contskil{padding: 120px 0;}
     .sktxt{padding-top: 8px 0;width: calc((100%-72px)/4);
          }
-    .endle{margin-right: 0%; width: calc((100%-72px)/4);}
+    .endle{margin-right: 0%;flex-basis: calc((100%-3*24px)/4);}
     .threetit{ width: calc((100%-72px)/4); margin-bottom: 8px;  }
+    .sectskill{padding: 120px 0;}
     .skilllist{padding: 120px 0;
         gap: 24px;
         height: 104px;
@@ -116,9 +117,9 @@ a{ text-decoration: none ;}
     .nameprof{padding: 32px 0 32px;width: calc((100%-72px)/4);border-radius: 0px 0px 4px 4px ;}
     
      
-    .sectourteam{padding: 72px 0;
+    .sectourteam{ flex-basis: calc((100%-3*24px)/4); padding: 72px 0;
         background-color: #FFFFFF;border-radius: 0px 0px 4px 4px ;}
-    .skilltit{display:none;}
+    .visually-hidden{position: fixed;transform: scale(0);}
     .tithtwo{margin-bottom: 72px;
         padding: 120px 0;
         font-family: "Roboto", sans-serif ; 
@@ -173,7 +174,7 @@ a{ text-decoration: none ;}
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #f4f4fd;}
-    .secten{padding-top: 120px;padding-bottom: 120px;}    
+    .sectend{padding-top: 120px;padding-bottom: 120px;}    
     .footer-logo{display: inline-block ; margin-bottom: 16px;}
 
 
