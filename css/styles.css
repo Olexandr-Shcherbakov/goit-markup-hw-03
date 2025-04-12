@@ -6,7 +6,8 @@ ul,ol{list-style-type:none;
 h1,h2,h3,h4,h5,h6,p{margin: 0;}      
 a{ text-decoration: none ;}
 
-.container{max-width: 1158px;
+.container{box-sizing: border-box;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;}
 .logo{font-family: Raleway,sans-serif;
@@ -58,11 +59,12 @@ a{ text-decoration: none ;}
     .header-nav{display: flex;
         align-items: center;}
 
-    .sectionone {background-color: #2E2F42;}
-    .onetitle{font-family: "Roboto", sans-serif;
+    .sectionone {background-color: #2E2F42;
+        }
+    .onetitle{
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        
         /* line-height: 60px; */ 
         line-height: 107%;
         letter-spacing: 0.02em;
@@ -82,13 +84,25 @@ a{ text-decoration: none ;}
        
         }
         .buttonorder:hover,
-        .buttonorder:focus {background-color:#404bbf ;} 
-
+        .buttonorder:focus {background-color:#404bbf ;}
+    .contskil{margin-top: 120px ;}
+    .sktxt{padding-top: 8px 0;}
+    .skilllist{height: 104px;
+        flex-basis:calc((100%-24px*3)/4);
+        display: flex;
+        align-items: center;}    
+    .conteam{margin-top: 120px;}
+    .oursp{  flex-basis:calc((100%-24px*3)/4);
+        display: flex;
+        align-items: center;}
     .sectionthree{background-color: #f4f4fd;}
-
-    .sectourteam{background-color: #FFFFFF;}
     
-    .tithtwo{font-family: "Roboto", sans-serif ; 
+     
+    .sectourteam{padding: 72px 0;
+        background-color: #FFFFFF;}
+    .skilltit{display:none;}
+    .tithtwo{padding: 120px 0;
+        font-family: "Roboto", sans-serif ; 
         font-weight: 700;
         font-size: 36px;
         text-transform: capitalize;
@@ -97,7 +111,9 @@ a{ text-decoration: none ;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;}
-    .tiththree{font-family: "Roboto", sans-serif;
+    .tiththree{padding-top: 32px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         
@@ -105,6 +121,7 @@ a{ text-decoration: none ;}
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;}
+    .thretext{text-align: center;padding-top: 8px;}   
     .text{font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -113,7 +130,7 @@ a{ text-decoration: none ;}
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;}
-
+    .portfol{display:flex;flex-wrap: wrap;flex-basis:calc((100%-24px*4)/6);}
 
     .page-footer {background-color:#2E2F42;}
     .textfooter{font-family: "Roboto", sans-serif;
