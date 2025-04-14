@@ -94,23 +94,17 @@
         }
          .buttonorder:hover,
          .buttonorder:focus {background-color:#404bbf ;}
-     .contskil{padding: 120px 0;}
+     
      .sktxt{padding-top: 8px 0;width: calc((100%-72px)/4);
           }
-     .endle{margin-right: 0%;flex-basis: calc((100%-3*24px)/4);}
+     .endle{flex-basis: calc((100% - 3 * 24px) / 4);}
      .threetit{ width: calc((100%-72px)/4); margin-bottom: 8px;  }
      .sectskill{padding: 120px 0;}
-     .skilllist{padding: 120px 0;
-         gap: 24px;
-         height: 104px;
-         flex-basis:calc((100%-24px*3)/4);
+     .skilllist{gap: 24px;
          display: flex;
          align-items: center;}    
-     .conteam{margin-top: 120px;
-     padding: 120px 0;}
-     .oursp{padding: 120px 0;
-         gap: 24px; 
-         flex-basis:calc((100%-24px*3)/4);
+     
+     .oursp{gap: 24px; 
          display: flex;
          align-items: center;}
      .sectionthree{background-color: #f4f4fd;
@@ -119,7 +113,7 @@
      .nameprof{padding: 32px 0 32px;width: calc((100%-72px)/4);border-radius: 0px 0px 4px 4px ;}
  
  
-     .sectourteam{ flex-basis: calc((100%-3*24px)/4); padding: 72px 0;
+     .sectourteam{ flex-basis: calc((100% - 3 * 24px) / 4); 
          background-color: #FFFFFF;border-radius: 0px 0px 4px 4px ;}
      
      .visually-hidden{position: absolute;
@@ -133,7 +127,6 @@
          clip-path: inset(100%);
          margin: -1px;}
      .tithtwo{margin-bottom: 72px;
-         padding: 120px 0;
          font-family: "Roboto", sans-serif ; 
          font-weight: 700;
          font-size: 36px;
@@ -145,17 +138,14 @@
          color: #2e2f42;}
      .imgsecth{ width: calc((100% - 72px) / 4) border-radius 0px 0px 4px 4px; display: block;}    
      .tiththree{margin-bottom:  8px;
-         padding-top: 32px;
-         text-align: center;
          font-family: "Roboto", sans-serif;
          font-weight: 500;
          font-size: 20px;
- 
-         /* line-height: 24px; */ 
+     /* line-height: 24px; */ 
          line-height: 120%;
          letter-spacing: 0.02em;
          color: #2e2f42;}
-     .thretext{text-align: center;padding-top: 8px;}   
+     .thretext{text-align: center;}   
      .text{font-family: "Roboto", sans-serif;
          font-weight: 400;
          font-size: 16px;
@@ -173,8 +163,9 @@
          border: 1px solid#e7e9fc;
          border-top: none;}
      .tithfo{margin-bottom: 8px;}       
-     .contport{padding-top: 120px;padding-bottom: 120px;column-gap: 24px;}
-     .lithree{margin-right: 0;}
+     
+     .lithree{margin-right: 0;
+        flex-basis:calc((100% - 24px * 4) / 6);}
      .page-footer {background-color:#2E2F42;
              padding: 100px 0;}
      .textfooter{max-width: 264px;
@@ -190,3 +181,12 @@
      .footer-logo{display: inline-block ; margin-bottom: 16px;}
  
  
+
+
+
+
+
+
+
+
+
